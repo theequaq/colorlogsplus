@@ -1,5 +1,5 @@
 ```js
-const log = require('colorlogsplus').Logger;
+const log = require('./logger').Logger;
 
 log.command("Command");
 log.debug("Debug");
@@ -12,7 +12,7 @@ log.test("Test");
 //with colors
     //  $rs/ Resets the color
     //  $bl/ Make the color black
-    //  $bold/ Makes the dont bold!
+    //  $sh/ Makes the dont shine out!
     //  $r/ Makes the color red
     //  $g/ Makes the color green
     //  $y/ Makes the color yellow
@@ -28,9 +28,19 @@ log.error("$y/Error");
 log.event("$r/Event");
 log.info("$bl/Info");
 log.log("$m/Log");
-log.ready("$wReady");
+log.ready("$c/Ready");
 log.test("$g/Test");
 
+//more colors in one text
+
+log.command("$b/Comm$y/and");
+log.debug("$un/$b/Debug");
+log.error("$y/Err$w/or");
+log.event("$r/Eve$y/nt");
+log.info("$bl/Inf$g/o");
+log.log("$m/Lo$sh/g");
+log.ready("$c/Re$r/ady");
+log.test("$g/Te$m/st");
 ```
 
 
