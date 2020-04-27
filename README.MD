@@ -1,3 +1,4 @@
+# index.js
 ```js
 const log = require('./logger').Logger;
 
@@ -43,5 +44,5 @@ log.ready("$c/Re$r/ady");
 log.test("$g/Te$m/st");
 ```
 
-# console output
+## console output
 ![console output](https://github.com/theequaq/colorlogsplus/blob/master/output.JPG)
