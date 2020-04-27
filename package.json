@@ -1,0 +1,31 @@
+{
+    "name": "colorlogsplus",
+    "version": "0.0.1",
+    "description": "a custom log center!",
+    "main": "logger.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/theequaq/colorlogsplus.git"
+    },
+    "keywords": [
+"Commands",
+"Debug",
+"Error",
+"Event",
+"Info",
+"Log",
+"Ready",
+"Test",
+"Logger",
+"custom consolelog",
+"Discord.js"
+    ],
+    "author": "theequaq(BlackDeadSkulll) <hygames.mcpe@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/theequaq/colorlogsplus/issues"
+    }
+  }
