@@ -1,6 +1,6 @@
 # index.js
 ```js
-const log = require('./logger').Logger;
+const log = require('colorlogsplus').Logger;
 
 log.command("Command");
 log.debug("Debug");
